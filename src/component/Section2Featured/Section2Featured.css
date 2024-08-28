@@ -89,8 +89,14 @@
         width: 280px !important;
     }
     .BG-Featured-Image{
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
+        right: 35px;
+
+    }
+    .BG-Featured-Image img{
+        width: 40px;
+        height: 40px;
 
     }
     .Featured-Second-Part{
