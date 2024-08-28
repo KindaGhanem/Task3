@@ -32,7 +32,7 @@
 
 
 import React from 'react'
-import './Hero.css'
+import './Hero.css' 
 import { useState } from 'react';
 
 

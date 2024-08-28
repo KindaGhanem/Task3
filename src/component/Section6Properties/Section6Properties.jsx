@@ -11,7 +11,7 @@ import imgPropertyCard4 from './../../assets/images/property-04.jpg'
 import imgPropertyCard5 from './../../assets/images/property-05.jpg'
 import imgPropertyCard6 from './../../assets/images/property-06.jpg'
 
-
+ 
 
 
 export const VillaCardsProperties = [
@@ -21,20 +21,20 @@ export const VillaCardsProperties = [
       img: imgPropertyCard1 ,
       button:'Luxury Villa' ,
       price:'2.264.000$',
-      title:'18 New Street Miami, OR 97219' ,
+      title:'18 Old Street Miami, OR 97219' ,
       num1: '8',
       num2: '8',
       num3: '545m2',
       num4: '3',
       num5:'6 spots' ,
-      category: "Card3" ,
+      category: "Card2" ,
   },
   {
       id: 2,
       img: imgPropertyCard2,
       button:'Luxury Villa' ,
       price:'$1.180.000',
-      title:'54 Mid Street Florida, OR 27001' ,
+      title:'54 New Street Florida, OR 27001' ,
       num1: '6',
       num2: '5',
       num3: '450m2',
@@ -47,7 +47,7 @@ export const VillaCardsProperties = [
       img: imgPropertyCard3,
       button:'Luxury Villa' ,
       price:'$584.500',
-      title:'12 New Street Miami, OR 12650' ,
+      title:'12 Mid Street Miami, OR 38540' ,
       num1: '4',
       num2: '3',
       num3: '125m2',
@@ -58,7 +58,7 @@ export const VillaCardsProperties = [
   {
       id: 4,
       img: imgPropertyCard4,
-      button:'Penthouse' ,
+      button:'Apartment' ,
       price:'$925.600',
       title:'34 Beach Street Miami, OR 42680' ,
       num1: '8',
@@ -71,7 +71,7 @@ export const VillaCardsProperties = [
   {
       id: 5,
       img: imgPropertyCard5,
-      button:'Modern Condo' ,
+      button:'Penthouse' ,
       price:'$450.000',
       title:'22 New Street Portland, OR 16540' ,
       num1: '3',
@@ -84,7 +84,7 @@ export const VillaCardsProperties = [
   {
       id: 6,
       img: imgPropertyCard6,
-      button:'Luxury Villa' ,
+      button:'Penthouse' ,
       price:'$1.460.000',
       title:'26 Old Street Miami, OR 38540' ,
       num1: '5',
@@ -92,7 +92,7 @@ export const VillaCardsProperties = [
       num3: '225m2',
       num4: '3',
       num5:'10 spots' ,
-      category: "Card2" ,
+      category: "Card3" ,
   },
 ];
 

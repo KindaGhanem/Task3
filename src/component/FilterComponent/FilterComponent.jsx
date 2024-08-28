@@ -15,7 +15,7 @@ export default function FilterComponent() {
     {
         id: 7,
         img: imgPropertyCard7,
-        button:'Luxury Villa' ,
+        button:'Apartment' ,
         price:'$1.460.000',
         title:'26 Old Street Miami, OR 38540' ,
         num1: '5',
@@ -28,7 +28,7 @@ export default function FilterComponent() {
     {
         id: 8,
         img: imgPropertyCard8,
-        button:'Luxury Villa' ,
+        button:'Apartment' ,
         price:'$1.460.000',
         title:'26 Old Street Miami, OR 38540' ,
         num1: '5',
@@ -36,12 +36,12 @@ export default function FilterComponent() {
         num3: '225m2',
         num4: '3',
         num5:'10 spots' ,
-        category: "Card2" ,
+        category: "Card1" ,
     },
     {
         id: 9,
         img: imgPropertyCard9,
-        button:'Luxury Villa' ,
+        button:'Apartment' ,
         price:'$1.460.000',
         title:'26 Old Street Miami, OR 38540' ,
         num1: '5',
