@@ -19,7 +19,7 @@ function App() {
       <NavBarr />
 
       <Routes>
-        <Route path="/Task3/" element= { <Home /> } />
+        <Route path="/" element= { <Home /> } />
         <Route path="/properties" element= { <Properties /> } />
         <Route path="/propertiesdetails" element= { <PropertiesDetails /> } />
         <Route path="/contactus" element= { <ContactUs /> } />
