@@ -1,0 +1,60 @@
+.TopNav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 1px 1px #dfdbdb;
+    padding-top: 10px ;
+    padding-bottom : 10px ;
+}
+.TopNav-Change-State{
+    display: none;
+  }
+.TopNavLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TopNavIcon{
+    color: #f35525;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.TopNavLeft p{
+    color: gray;
+    margin-bottom: 0px;
+}
+.TopNavRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TopNavRight div{
+    width: 30px;
+    height: 30px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TopNavRight div:hover{
+    background-color: #f35525;
+    color: white;
+}
+.TopNavRight div a{
+    color: white;
+    
+}
+
+
+@media (max-width:992px){
+    .TopNav{
+        display: none !important;
+
+    }
+
+
+}

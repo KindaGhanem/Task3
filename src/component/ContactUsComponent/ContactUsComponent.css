@@ -1,0 +1,57 @@
+.ContactComponentSec{
+    /* padding: 60px 80px; */
+    padding-top: 60px;
+    padding-bottom:60px; 
+}
+.Par-Component-Contact{
+    font-size: 17px;
+    color: #4a4a4a;
+    width: 520px;
+    
+}
+.ContactComponentDiv{ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media(max-width:1322px){
+    .Par-Component-Contact{
+        width: 350px;
+        
+    }
+    .ContactComponentDiv div{ 
+        width: 400px;
+    }
+    
+
+
+}
+
+@media(max-width:992px){
+    .ContactComponentDiv{ 
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .ContactComponentDiv div{ 
+        width: 400px;
+    }
+    .ContactComponentSec p{
+        width: 400px;
+    }
+
+}
+
+
+@media(max-width:550px){
+    .ContactComponentSec p{
+        width: 300px;
+    }
+    /* .ContactComponentSec{
+        padding: 30px 40px;
+    } */
+    .ContactComponentDiv div{ 
+        width: 300px;
+    }
+
+}

@@ -1,0 +1,48 @@
+.Featured-Accordion{
+    background-color: #fafafa;
+    padding-right: 15px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 330px;
+}
+.Featured-Accordion h5{
+    border-bottom: 1px solid #b6b3b3;
+    padding: 10px;
+}
+.hidden{
+    height: 55px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.show{
+    height: 200px;
+    overflow: visible;
+    transition: 0.5s;
+}
+.show h5{
+    color: red;
+
+}
+
+@media(max-width:1200px){
+    .Featured-Accordion{
+        width: 250px;
+    }
+
+}
+
+
+@media(max-width:992px){
+    .Featured-Accordion{
+        width: 400px;
+    }
+
+}
+
+@media (max-width:550px){
+.Featured-Accordion
+{
+    width: 300px;
+
+}
+}

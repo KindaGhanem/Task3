@@ -1,0 +1,62 @@
+.SectionNumber{
+    padding-top: 200px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+.Number-Card{
+    background-color: #ffeee9;
+    padding: 15px 50px;
+    display: flex;
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.Number-Card h3{
+    color: #f35525;
+    font-size: 50px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.Number-Span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Number-Span span{
+    margin-bottom: 5px;
+}
+.Number-Circle{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #f35525;
+    border-radius: 50%;
+    right: -15px;
+    top: -15px;
+}
+
+  
+@media(max-width:1200px){
+    .SectionNumber{
+        column-gap: 10px !important;
+    }
+    .Number-Card{
+        width: 250px;
+    }
+}
+@media(max-width:992px){
+    .SectionNumber{
+        row-gap: 40px !important;
+    }
+    .Number-Card{
+        margin: auto;
+    }
+}

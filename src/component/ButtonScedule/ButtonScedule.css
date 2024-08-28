@@ -1,0 +1,21 @@
+.Schedule-Nav-BG{
+    width: 180px;
+    height: 40px;
+    font-size: 13px !important;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    /* margin: auto; */
+    transition: 0.5s;
+    padding-left: 14px;
+}
+.Schedule-Nav-BG:hover{
+    color: #f35525;
+}
+.PropertiesCard .Schedule-Nav-BG{
+    margin: auto;
+}

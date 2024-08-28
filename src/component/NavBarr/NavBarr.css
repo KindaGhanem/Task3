@@ -1,0 +1,107 @@
+
+.Navbar{
+  background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.05);
+    /* padding: 10px 80px !important; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed  !important;
+    z-index: 9
+  }
+
+  .Navbar h3{
+    color: black !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+  }
+
+  .Navbar ul{
+    display: flex;
+   column-gap: 25px;
+  }
+
+  .Navbar ul li{
+    list-style-type: none;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+  }
+
+  .Navbar ul li a{
+    color: black ;
+    position: relative;
+    text-decoration: none;
+    cursor:grab ;
+    /* margin-left: 20px; */
+    transition: 0.5s;
+  }
+  
+  .Navbar ul li a:hover ,
+  .Navbar ul li a:focus{
+    color: #f35525 !important;
+  }
+
+  .Navbar ul li a:focus::after{
+    content: " ";
+    width: 70px ;
+    height: 2px;
+    background-color:#f35525; ;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: block;
+  }
+
+  .Navbar ul li a:hover::after{
+    content: " ";
+    width: 70px ;
+    height: 2px;
+    background-color: #f35525; ;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: block;
+  }
+  
+  .Bars{
+    display: none;
+    font-size: 30px;
+  }
+
+  
+  @media (max-width:992px){
+    
+
+  .Bars{
+    display: block;
+  }
+  .Navbar ul{
+    transition: 1s;
+    transform: translateY(-500%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+  
+  }
+  .Navbar ul.open{
+    transform: translateY(0%);
+    width: 100%;
+  }
+  .Navbar ul li{
+    margin-bottom: 80px !important;
+   }
+  }
+  
+  @media(max-width:739px){
+    .Navbar h3{
+      font-size: 15px;
+    }
+  }

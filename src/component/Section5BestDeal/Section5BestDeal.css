@@ -1,0 +1,179 @@
+.SectionBestDeal{
+    background-color: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.BestDeal-TopPart{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.BestDeal-ButtonPart{
+    display: flex;
+}
+.BestDeal-ButtonPart button{
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.content{
+    display: none !important; 
+}
+
+
+.BestDeal-ButtonPart button:hover , 
+.BestDeal-ButtonPart button:focus ,
+.BestDeal-ButtonPart button:active {
+    background-color:  #f35525;;
+}
+.BestDeal-BottomPart{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.BestDealCard{
+    border-radius: 10px;
+    box-shadow: 0px 0px 29px rgba(19, 18, 18, 0.15);
+    padding: 25px 20px;
+    width: 300px;
+
+
+}
+.BestDealCard div{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.BestDealCard li{
+    color: #aaa;
+    list-style-type: none;
+
+}
+.BestDealCard span{
+    font-weight: 600;
+    color: black;
+    margin-left: 20px;
+}
+.BestDealInfo{
+    width: 300px;
+}
+.BestDealInfo h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.BestDealInfo p{
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
+@media(max-width:1200px){
+    .BestDeal-BottomPart{
+        column-gap: 20px;
+
+    }
+    .BestDeal-BottomPart{
+        row-gap: 30px;
+    }
+    .BestDeal-TopPart{
+        column-gap: 30px;
+    }
+
+}
+
+@media(max-width:1200px){
+
+    .BestDealCard ,
+    .BestDealInfo{
+        width: 250px;
+
+    }
+    .Img-BestDeal {
+        width: 250px;
+        object-fit: cover;
+
+    }
+
+
+}
+
+
+
+@media(max-width:992px){
+
+
+    .BestDealCard ,
+    .Img-BestDeal ,
+    .BestDealInfo{
+        width: 400px;
+        margin: auto;
+
+    }
+    .BestDeal-ButtonPart{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+
+    }
+    .BestDeal-ButtonPart button{
+        font-size: 14px;
+
+    }
+    .BestDeal-TopPart{
+        width:400px;
+        margin: auto;
+
+    }
+
+
+
+
+
+}
+@media(max-width:550px){
+    /* .BestDeal-Par{
+        width: 300px;
+    } */
+
+    .Img-BestDeal{
+        width: 300px;
+    }
+
+    .SectionBestDeal{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .BestDeal-ButtonPart button{
+        margin-right: 5px;
+        padding: 5px 10px;
+        font-size: 15px;
+
+    }
+
+
+    .BestDealCard ,
+    .Img-BestDeal ,
+    .BestDealInfo{
+        width: 270px;
+
+    }
+    .BestDeal-TopPart{
+        width: 270px;
+        margin: auto;
+
+
+    }
+
+
+}

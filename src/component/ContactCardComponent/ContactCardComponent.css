@@ -1,0 +1,97 @@
+.ContactCard{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap:100px
+}
+.ContactCardPart1{
+    box-shadow: 1px 1px 10px rgba(41, 37, 37, 0.15);
+    background-color: white;
+    width: 250px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    border-radius: 10px;
+
+}
+.ContactCardPart1 img{
+    width: 50px;
+    height: 45px;
+    margin-right: 7px;
+}
+.ContactCardPart1 span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.ContactCardPart1 p{
+    font-size: 15px;
+    font-weight: 600;
+    width: 200px !important;
+    margin-bottom: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+
+    
+}
+/* .flex
+.ContactCardPart1{
+    width: 290px !important;
+    
+} */
+@media(max-width:1200px){
+
+    .ContactCard{
+        width: 500px;
+    }
+    .ContactCardPart1{
+        width: 500px;
+
+    }
+
+
+
+}
+
+@media(max-width:992px){
+    .ContactCard{
+        width: 400px;
+    }
+    .ContactCardPart1{
+        width: 400px;
+
+    }
+    .ContactCardPart1 span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .flex{
+        width: 400px;
+        
+    }
+    /* .flex
+.ContactCardPart1{
+    width: 400px !important;
+    
+} */
+
+
+}
+@media(max-width:550px){
+    .ContactCard{
+        width: 270px;
+    }
+    .ContactCardPart1{
+        width: 270px;
+    }
+    .flex{
+        width: 270px;
+    }
+}

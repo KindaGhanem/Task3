@@ -1,0 +1,30 @@
+.Schedule-Nav{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .Schedule-Nav .Schedule-Nav-Icon{
+    width: 40px;
+    height: 40px;
+    background-color: #f35525;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+
+}
+
+@media (max-width:992px){
+    .display{
+      display: none !important;
+    }
+
+
+
+}

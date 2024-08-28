@@ -1,0 +1,100 @@
+.PropertiesCardsAll{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 30px;
+}
+.PropertiesCard{
+    width: 370px;
+    /* margin: 70px; */
+    background-color: #fafafa;
+    padding: 30px;
+    border-radius: 10px;
+}
+.PropertiesCard img{
+    width: 300px;
+    border-radius: 10px;
+} 
+.ProCardInfo1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ProCardInfo1 button{
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+}
+.ProCardInfo1 p{
+    font-size: 25px;
+    color: #f35525;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.PropertiesCard h4{
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+}
+.PropItems{
+    display: flex ;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd5d5;
+
+}
+.PropItems li{
+    list-style-type: none;
+    
+}
+.PropItems span{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+
+@media(max-width:1520px){
+    .PropertiesCardsAll{
+        column-gap: 10px;
+    }
+
+}
+@media(max-width:992px){
+    .PropertiesCard{
+        margin: auto;
+
+    }
+
+}
+
+
+@media(max-width:550px){
+    .PropertiesCardsAll{
+        column-gap: 10px;
+    }
+    .PropertiesCard{
+        width: 290px;
+        padding: 20px;
+    }
+    .PropertiesCard img{
+        width: 230px;
+    }
+    .ProCardInfo1 button{
+        padding: 3px 5px;
+    }
+    .ProCardInfo1 p {
+        font-size: 18px;
+
+    }
+
+}
