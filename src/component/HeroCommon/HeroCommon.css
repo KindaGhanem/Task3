@@ -1,7 +1,7 @@
 .HeroCommon{
     padding-top: 80px;
     height: 60vh;
-    background-image: url(./../../../public/images/page-heading-bg.jpg);
+    background-image: url(./../../assets/images/page-heading-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

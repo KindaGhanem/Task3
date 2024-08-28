@@ -117,7 +117,7 @@
     /* left: 20%; */
     color: white;
     width: 300px;
-    transform: translate(37% , 0);
+    transform: translate(30% , 0);
 
 }
 .Slide-Main h3{
@@ -136,10 +136,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-}
-
-
-.Slide-Main {
     min-width: 100%;
 }
 
@@ -147,10 +143,6 @@
     width: 100%;
     height: 100vh;
     object-fit: cover;
-    /* position: center;
-    /* background-size: cover; */
-
-    /* display: block; */
 }
 
 .Prev-Btn , .Next-Btn{

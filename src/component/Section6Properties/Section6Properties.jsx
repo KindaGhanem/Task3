@@ -4,12 +4,21 @@ import ButtonScedule from './../ButtonScedule/ButtonScedule'
 import Cards from '../Cards/Cards'
 
 
+import imgPropertyCard1 from './../../assets/images/property-01.jpg'
+import imgPropertyCard2 from './../../assets/images/property-02.jpg'
+import imgPropertyCard3 from './../../assets/images/property-03.jpg'
+import imgPropertyCard4 from './../../assets/images/property-04.jpg'
+import imgPropertyCard5 from './../../assets/images/property-05.jpg'
+import imgPropertyCard6 from './../../assets/images/property-06.jpg'
+
+
+
 
 export const VillaCardsProperties = [
 
   { 
       id: 1,
-      img: './public/images/property-01.jpg',
+      img: imgPropertyCard1 ,
       button:'Luxury Villa' ,
       price:'2.264.000$',
       title:'18 New Street Miami, OR 97219' ,
@@ -22,7 +31,7 @@ export const VillaCardsProperties = [
   },
   {
       id: 2,
-      img: './public/images/property-02.jpg',
+      img: imgPropertyCard2,
       button:'Luxury Villa' ,
       price:'$1.180.000',
       title:'54 Mid Street Florida, OR 27001' ,
@@ -35,7 +44,7 @@ export const VillaCardsProperties = [
   },
   {
       id: 3,
-      img: './public/images/property-03.jpg',
+      img: imgPropertyCard3,
       button:'Luxury Villa' ,
       price:'$584.500',
       title:'12 New Street Miami, OR 12650' ,
@@ -48,7 +57,7 @@ export const VillaCardsProperties = [
   },
   {
       id: 4,
-      img: './public/images/property-04.jpg',
+      img: imgPropertyCard4,
       button:'Penthouse' ,
       price:'$925.600',
       title:'34 Beach Street Miami, OR 42680' ,
@@ -61,7 +70,7 @@ export const VillaCardsProperties = [
   },
   {
       id: 5,
-      img: './public/images/property-05.jpg',
+      img: imgPropertyCard5,
       button:'Modern Condo' ,
       price:'$450.000',
       title:'22 New Street Portland, OR 16540' ,
@@ -74,7 +83,7 @@ export const VillaCardsProperties = [
   },
   {
       id: 6,
-      img: './public/images/property-06.jpg',
+      img: imgPropertyCard6,
       button:'Luxury Villa' ,
       price:'$1.460.000',
       title:'26 Old Street Miami, OR 38540' ,
@@ -84,7 +93,6 @@ export const VillaCardsProperties = [
       num4: '3',
       num5:'10 spots' ,
       category: "Card2" ,
-
   },
 ];
 

@@ -21,7 +21,7 @@ export default function NavBarr ()
             }} />
           </div>
           <ul className = {menuOpen ? "open" : "" } >
-            <li> <Link to="/" ><a href='#'>Home</a></Link> </li>
+            <li> <Link to="/Task3/" ><a href='#'>Home</a></Link> </li>
             <li> <Link to="/properties">Proprtie</Link> </li>
             <li> <Link to="/propertiesdetails">Proprties Details</Link> </li>
             <li> <Link to="/contactus">Contact Us</Link> </li>

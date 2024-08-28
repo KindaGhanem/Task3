@@ -1,5 +1,10 @@
 
 import './FeatureCardCommon.css'
+import imgCardFeature1 from './../../assets/images/info-icon-01.png'
+import imgCardFeature2 from './../../assets/images/info-icon-02.png'
+import imgCardFeature3 from './../../assets/images/info-icon-03.png'
+import imgCardFeature4 from './../../assets/images/info-icon-04.png'
+
 
 export default function FeatureCardCommon() {
 
@@ -7,26 +12,26 @@ export default function FeatureCardCommon() {
 
         {
             id: 1,
-            Image: './public/images/info-icon-01.png',
+            Image: imgCardFeature1,
             title:'250 m2' ,
             text: "Total Flat Space",
 
         },
         {
             id: 2,
-            Image: './public/images/info-icon-02.png',
+            Image: imgCardFeature2,
             title:'Contract' ,
             text: "Contract Ready",
         },
         {
             id: 3,
-            Image: './public/images/info-icon-03.png',
+            Image: imgCardFeature3,
             title:'Payment' ,
             text: "Payment",
         },
         {
             id: 4,
-            Image: './public/images/info-icon-04.png',
+            Image:imgCardFeature4,
             title:'Safety' ,
             text: "24/7 Under",
         },

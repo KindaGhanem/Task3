@@ -3,6 +3,10 @@ import './Section5BestDeal.css'
 import SceduleCommon from './../SceduleCommon/SceduleCommon'
 import TitleCommon from '../TitleCommon/TitleCommon'
 
+import imgBestDeal from './../../assets/images/property-05.jpg'
+import imgBestDeal22 from './../../assets/images/property-06.jpg'
+import imgBestDeal33 from './../../assets/images/property-03.jpg'
+
 export default function Section5BestDeal() {
 
     const [toggle, setToggle] = useState(1)
@@ -46,7 +50,7 @@ export default function Section5BestDeal() {
                     <span>Bank</span>
                 </div> 
             </ul>
-                <img src = './public/images/property-05.jpg' alt='image' width={430} className='Img-BestDeal'></img>
+                <img src = {imgBestDeal} alt='image' width={430} className='Img-BestDeal'></img>
                 <div className='BestDealInfo'>
                     <h3>Extra Info About Property</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tenetur fugiat quis quia hic autem, saepe repudiandae placeat tempora nisi delectus labore repellat rerum corporis velit, cumque a animi pariatur?</p>
@@ -77,7 +81,7 @@ export default function Section5BestDeal() {
                     <span>Bank</span>
                 </div> 
             </ul>
-                <img src = './public/images/property-06.jpg' alt='image' width={430} className='Img-BestDeal'></img>
+                <img src = {imgBestDeal22} alt='image' width={430} className='Img-BestDeal'></img>
                 <div className='BestDealInfo'>
                     <h3>Detail Info About Villaa</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.</p>
@@ -108,7 +112,7 @@ export default function Section5BestDeal() {
                     <span>Bank</span>
                 </div> 
             </ul>
-                <img src = './public/images/property-03.jpg' alt='image' width={430} className='Img-BestDeal'></img>
+                <img src = {imgBestDeal33} alt='image' width={430} className='Img-BestDeal'></img>
                 <div className='BestDealInfo'>
                     <h3>Extra Info About Penthouse</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, do eiusmod tempor pack incididunt ut labore et dolore magna aliqua quised ipsum suspendisse.</p>

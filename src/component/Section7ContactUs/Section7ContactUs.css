@@ -1,5 +1,5 @@
 .BGContactUs{
-    background-image: url(./../../../public/images/contact-bg.jpg);
+    background-image: url(./../../assets/images/contact-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

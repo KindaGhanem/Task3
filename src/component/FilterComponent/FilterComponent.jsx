@@ -4,12 +4,17 @@ import {VillaCardsProperties} from './../Section6Properties/Section6Properties'
 import { useState } from 'react';
 
 
+import imgPropertyCard7 from './../../assets/images/property-01.jpg'
+import imgPropertyCard8 from './../../assets/images/property-02.jpg'
+import imgPropertyCard9 from './../../assets/images/property-03.jpg'
+
+
 export default function FilterComponent() {
   const VillaCardsProperties2 = [
     ...VillaCardsProperties,
     {
         id: 7,
-        img: './public/images/property-01.jpg',
+        img: imgPropertyCard7,
         button:'Luxury Villa' ,
         price:'$1.460.000',
         title:'26 Old Street Miami, OR 38540' ,
@@ -22,7 +27,7 @@ export default function FilterComponent() {
     },
     {
         id: 8,
-        img: './public/images/property-02.jpg',
+        img: imgPropertyCard8,
         button:'Luxury Villa' ,
         price:'$1.460.000',
         title:'26 Old Street Miami, OR 38540' ,
@@ -35,7 +40,7 @@ export default function FilterComponent() {
     },
     {
         id: 9,
-        img: './public/images/property-03.jpg',
+        img: imgPropertyCard9,
         button:'Luxury Villa' ,
         price:'$1.460.000',
         title:'26 Old Street Miami, OR 38540' ,

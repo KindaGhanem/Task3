@@ -3,6 +3,10 @@ import './Section2Featured.css'
 import TitleCommon from '../TitleCommon/TitleCommon';
 import FeatureCardCommon from '../FeatureCardCommon/FeatureCardCommon';
 import AccordionComponent from '../AccordionComponent/AccordionComponent';
+import imgfeature1 from './../../assets/images/featured.jpg'
+import imgfeature2 from './../../assets/images/featured-icon.png'
+
+
 
 export default function Section2Featured() {
 
@@ -10,9 +14,9 @@ export default function Section2Featured() {
   return (
     <section className='SectionFeatured main-padding'>
         <div className='FeaturedDiv1'>  
-            <img src='./public/images/featured.jpg' alt='image-featured' className='ImageFeatured'></img>
+            <img src={imgfeature1} alt='image-featured' className='ImageFeatured'></img>
             <div className='BG-Featured-Image'>
-                <img src='./public/images/featured-icon.png' alt='image-featured-icon' ></img>
+                <img src={imgfeature2} alt='image-featured-icon' ></img>
             </div>
         </div>
         <div className='Featured-Second-Part'>

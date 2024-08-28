@@ -36,27 +36,29 @@ import './Hero.css'
 import { useState } from 'react';
 
 
+import imghero1 from './../../assets/images/banner-01.jpg'
+import imghero2 from './../../assets/images/banner-02.jpg'
+import imghero3 from './../../assets/images/banner-03.jpg'
+
+
 
 export default function Hero() {
 
     const data = [
-        // './public/images/banner-01.jpg',
-        // './public/images/banner-02.jpg',
-        // './public/images/banner-03.jpg',
         {
-            img:'./public/images/banner-01.jpg' ,
+            img: imghero1,
             title :'Torono' ,
             text:'Canada' ,
             info :'Hurry Get The Best Villa For You.'
         },
         {
-            img:'./public/images/banner-02.jpg' ,
+            img: imghero2 ,
             title :'Torono' ,
             text:'Canada' ,
             info :'Hurry Get The Best Villa For You.'
         },
         {
-            img:'./public/images/banner-03.jpg' ,
+            img:imghero3 ,
             title :'Torono' ,
             text:'Canada' ,
             info :'Hurry Get The Best Villa For You.'
