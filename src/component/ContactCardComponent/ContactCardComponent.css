@@ -2,13 +2,14 @@
     width: 600px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    column-gap:100px
+    gap: 10px;
 }
 .ContactCardPart1{
     box-shadow: 1px 1px 10px rgba(41, 37, 37, 0.15);
     background-color: white;
-    width: 250px;
+    /* width: 40%; */
     display: flex;
     margin-top: 20px;
     justify-content: center;
@@ -62,11 +63,13 @@
 
 @media(max-width:992px){
     .ContactCard{
-        width: 400px;
+        width: 100%;
+        max-width: 900px;
         margin-bottom: 20px;
     }
     .ContactCardPart1{
-        width: 400px;
+        width: 100%;
+        max-width: 900px;
         /* margin-top: 20px; */
 
     }
@@ -87,7 +90,7 @@
 
 }
 @media(max-width:550px){
-    .ContactCard{
+    /* .ContactCard{
         width: 270px;
     }
     .ContactCardPart1{
@@ -95,5 +98,5 @@
     }
     .flex{
         width: 270px;
-    }
+    } */
 }

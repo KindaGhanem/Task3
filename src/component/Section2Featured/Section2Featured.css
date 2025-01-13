@@ -58,23 +58,28 @@
     
     }
 
-
-
     .Featured-Second-Part{
-        width: max-content;
-         margin: auto;
+        /* width: max-content;
+         margin: auto; */
+         width: 100% !important;
+         max-width: 992px !important;
         margin-top: 20px;
         margin-bottom: 30px;
     }
 
 
-    .ImageFeatured{
-        width: 400px !important;
-        margin: auto;
+    .FeaturedDiv1 .ImageFeatured{
+        /* width: 400px !important;
+        margin: auto; */
+        width: 100% !important;
+        max-width: 992px !important;
     }
+
     .FeaturedDiv1{
-        width: max-content;
-        margin: auto;
+        /* width: max-content;
+        margin: auto; */
+        width: 100% !important;
+        max-width: 992px !important;
 
     }
 

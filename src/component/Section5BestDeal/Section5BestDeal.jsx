@@ -16,7 +16,7 @@ export default function Section5BestDeal() {
     }
 
   return (
-    <section className='SectionBestDeal'>
+    <section className='SectionBestDeal main-padding'>
         <div className='BestDeal-TopPart'>
             <div>
                 <TitleCommon title='BEST DEAL' desc='Find Your Best Deal Right Now!' indent='start' />

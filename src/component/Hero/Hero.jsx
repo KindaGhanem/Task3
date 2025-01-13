@@ -93,7 +93,7 @@ export default function Hero() {
             </div>
             <button className="Prev-Btn" onClick={prevSlide}>&#10094;</button>
             <button className="Next-Btn" onClick={nextSlide}>&#10095;</button>
-            <div>
+            <div className='btnscircle'>
             <button className="One-Btn" onClick={prevSlide}></button>
             <button className="Two-Btn" onClick={nextSlide}></button>
             <button className="Three-Btn" onClick={nextSlide}></button>

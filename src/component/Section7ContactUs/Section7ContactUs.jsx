@@ -12,7 +12,7 @@ export default function Section7ContactUs() {
         <div className='BGContactUs'>
           <TitleCommon title='Contact US' desc='Get In Touch With Our Agent'  color='white' />
         </div>
-        <div className='ContactPart2'>
+        <div className='ContactPart2 main-padding'>
             <div className='ContactItems'>
                 <IframeComponent />
                 <ContactCardComponent />

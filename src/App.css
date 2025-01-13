@@ -16,6 +16,15 @@
     padding-left :80px;
     padding-right :80px;
   }
+
+  @media (min-width:1600px){
+    .backgroundAll{
+      margin: auto;
+      width: 100%;
+      max-width: 1600px !important;
+    }
+  }
+
   @media (max-width:1200px){
     .main-padding{
       padding-left:60px;

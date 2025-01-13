@@ -55,8 +55,10 @@
 @media(max-width:992px){
     .SectionNumber{
         row-gap: 40px !important;
+        width: 100%;
     }
     .Number-Card{
-        margin: auto;
+        /* margin: auto; */
+        width: 100%;
     }
 }

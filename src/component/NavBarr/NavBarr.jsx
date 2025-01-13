@@ -12,8 +12,22 @@ export default function NavBarr ()
 {
   const [menuOpen , setMenuOpen] = useState(false)
 
+    const [State , setState] = useState (false)
+  
+    function ChangeState (){
+      if (window.scrollY >= 1) {
+        setState(true)
+      }
+      else{ 
+        setState(false)
+      }
+    }
+    window.addEventListener('scroll' , ChangeState)
+  
+  
+
     return(
-        <nav className= 'Navbar main-padding'>
+        <nav className= {`Navbar main-padding backgroundAll ${State ? 'topscroll' : 'top'} toplg`}>
             <h3>VILLA</h3>
           <div>
             <FontAwesomeIcon icon={faBarChart} className='Bars' onClick={() =>{

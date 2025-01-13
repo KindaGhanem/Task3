@@ -10,10 +10,18 @@
     /* padding: 10px 80px !important; */
     padding-top: 10px;
     padding-bottom: 10px;
-    position: fixed  !important;
-    z-index: 9
   }
+.top{
+  position: fixed  !important;
+  z-index: 9;
 
+}
+.topscroll{
+  position: fixed  !important;
+  z-index: 9;
+  top: 0;
+
+}
   .Navbar h3{
     color: black !important;
     font-size: 28px !important;
@@ -76,6 +84,12 @@
   @media (max-width:992px){
     
 
+    .top{
+      position: fixed  !important;
+      z-index: 9;
+      top: 0;
+    
+    }
   .Bars{
     display: block;
   }
@@ -86,9 +100,11 @@
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 90px;
     left: 0;
+    height: 100vh;
     background-color: white;
+    padding-left: 0;
   
   }
   .Navbar ul.open{

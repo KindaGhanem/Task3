@@ -66,36 +66,53 @@
 
 @media(max-width:1520px){
     .PropertiesCardsAll{
-        column-gap: 10px;
+        column-gap: 30px;
     }
 
 }
 @media(max-width:992px){
     .PropertiesCard{
         margin: auto;
+        padding: 0px !important;
 
+    }
+
+}
+@media(max-width:900px){
+    .PropertiesCard{
+        width: 100%;
+        max-width: 600px;
+        height: 800px;
+
+    }
+    .PropertiesCard img{
+        width: 100%;
     }
 
 }
 
 
 @media(max-width:550px){
-    .PropertiesCardsAll{
-        column-gap: 10px;
-    }
     .PropertiesCard{
+        height: 650px;
+
+    }
+    /* .PropertiesCardsAll{
+        column-gap: 10px;
+    } */
+    /* .PropertiesCard{
         width: 240px;
         padding: 20px;
     }
     .PropertiesCard img{
         width: 210px;
-    }
-    .ProCardInfo1 button{
+    } */
+    /* .ProCardInfo1 button{
         padding: 3px 5px;
     }
     .ProCardInfo1 p {
         font-size: 18px;
 
-    }
+    } */
 
 }

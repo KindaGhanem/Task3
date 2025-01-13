@@ -7,7 +7,8 @@
 }
 .Featured-Accordion h5{
     border-bottom: 1px solid #b6b3b3;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .hidden{
     height: 55px;
@@ -34,15 +35,17 @@
 
 @media(max-width:992px){
     .Featured-Accordion{
-        width: 400px;
+        /* width: 400px; */
+        width: 100% !important;
+        max-width: 992px !important;
     }
 
 }
-
+/* 
 @media (max-width:550px){
 .Featured-Accordion
 {
     width: 300px;
 
 }
-}
+} */

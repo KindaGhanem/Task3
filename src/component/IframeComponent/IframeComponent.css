@@ -10,7 +10,7 @@
     margin-top: 50px;
 }
 
-@media(max-width:1200px){
+/* @media(max-width:1200px){
     .ContactItems iframe{
         width: 500px;
         height: 400px;
@@ -20,18 +20,13 @@
 
 
 
-}
-@media(max-width:992px){
+} */
+@media(max-width:1024px){
     .ContactItems iframe{
-        width: 400px;
-        height: 360px !important;
+        /* width: 400px;
+        height: 360px !important; */
+        width: 100%;
+        max-width: 900px;
     }
     
-}
-
-@media(max-width:550px){
-    .ContactItems iframe{
-        width:270px ;
-        height: 250px;
-    }
 }

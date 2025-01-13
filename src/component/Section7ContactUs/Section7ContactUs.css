@@ -15,7 +15,9 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: -200px;
-    padding: 10px 80px;
+    /* padding: 10px 60px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .ContactItems{
     display: flex;
@@ -45,8 +47,8 @@
 } */
 @media(max-width:999px){
     .ContactItems{
-        width: 400px;
-        margin: auto;
+        width: 100%;
+        max-width: 900px;
 
     }
 }
@@ -56,14 +58,4 @@
     .ContactCardPart1{
         margin-top: 20px;
     }
-}
-@media(max-width:550px){
-    .ContactItems{
-        width:300px
-    }
-    .ContactPart2{
-        padding: 10px 40px;
-    }
-
-
 }
